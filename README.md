@@ -9,8 +9,8 @@ Notion の DB からランダムに 1 つのレコードを取得して X に投
 ### 1. 必要なライブラリをインストール
 
 ```bash
-sudo apt-get update
-sudo apt install python3-pip
+# sudo apt-get update
+# sudo apt install python3-pip
 pip install python-dotenv notion-client requests
 ```
 
@@ -55,7 +55,7 @@ nano .env
 python3 postQuizNote.py
 ```
 
-### 5. 定期実行設定（crontab）
+## 定期実行設定（crontab）
 
 ```bash
 # crontabファイルを編集
